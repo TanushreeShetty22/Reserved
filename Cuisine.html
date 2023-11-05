@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale 1.0"> 
+    <title>Cuisine</title>
+   
+    <style>
+         a{
+        padding: 20px;
+        text-decoration: none;
+    }
+ 
+    nav{
+        padding: 30px;
+        float: right;
+        color: #f2f2f2;
+        text-align: right;
+}
+body {
+            margin: -20px 0px 0px 0px;
+            font-family: Arial;
+            background-color: black;
+            background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(resimg.jpg)no-repeat;
+        background-size: cover;
+       
+        }
+        
+        a {
+            padding: 20px;
+            text-decoration: none;
+        }
+        
+        nav {
+            padding: 50px;
+            float: right;
+            color: #f2f2f2;
+            text-align: right;
+        }
+        
+        .dropdown {
+        
+        float: right;
+        overflow: hidden;
+        text-align: right;
+        }
+
+        .dropdown .dropbtn {
+        font-size: 17px;  
+        border: none;
+        outline: none;
+        color: orange;
+        /* padding:50px; */
+        background-color: inherit;
+        font-family: inherit;
+        
+        text-align: right;
+        }
+
+
+       .dropdown-content {
+       display: none;
+       position: absolute;
+  
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+     }
+
+      .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+     }
+
+     .dropdown-content a:hover {
+     background-color: orange;
+     }
+
+     .dropdown:hover .dropdown-content {
+      display: block;
+      }
+ 
+ 
+ 
+/* unvisited link */
+a:link {
+  color:orange;
+}
+ 
+/* visited link */
+a:visited {
+  color:orange;
+}
+ 
+/* mouse over link */
+a:hover {
+  color: white;
+}
+ 
+/* selected link */
+a:active {
+  color: blue;
+}
+ 
+
+   
+*{
+  margin: 0px;
+  padding: 0px;
+           
+            /* overflow-x: hidden; */
+            /* overflow-x: initial !important;     */
+        }
+        .image {
+         position: relative;
+         width: 100%;
+         height:850;
+        }
+        .image2{
+         position: relative;
+         width: 100%; /* for IE 6 */
+         height:850;
+        }
+      .image3{
+        position: relative;
+        width: 100%; /* for IE 6 */
+        height:850;
+      }
+      .image4{
+        position: relative;
+        width: 100%; /* for IE 6 */
+        height:850;
+      }
+ 
+      h2{
+        margin: auto;
+        position: absolute;
+        top: 60%;
+        bottom: 60%;
+        text-align: center;
+        color: white;
+        padding-left: 40px;
+       
+      }
+ 
+       h1{
+        font-family: Arial;
+        color:orange;
+        padding-left:40% ;
+       }
+
+       .img{
+          width: 100%;
+       }
+</style>
+ </head>
+ <body bgcolor="black">
+  <nav>
+    <ul>
+      <a href="homepage.html">Home</a>
+      <a href="Meal.html">Meals</a>
+      <div class="dropdown">
+        <button class="dropbtn">Locations
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="mumbai.html">Mumbai</a>
+          <a href="delhi.html">Delhi</a>
+          <a href="bangalore.html">Bangalore</a>
+        </div>
+      </div>
+ 
+        <a href="aboutus.html">About Us</a>
+   
+    </nav>
+   
+    <ul>
+   
+    <div style="padding:20px">
+        <img src="icon.png" width="150" height ="50">
+        </div>
+  <div>
+ 
+    <h1> <center>Choose a cuisine</center></h1>
+    <br>
+    <br>
+  </div>
+    <div class="image">
+ 
+    <img src ="Indian1.jpg" alt="abc" class="img"/>
+    <h2><centre>
+
+      <i>        Spicy, rich, flavourful and diverse are terms that are frequently used to describe Indian food.  <a href="mumbai.html">Taj</a></i>
+    </centre>
+    </div>
+    <br>
+    <br>
+    <div class="image2">
+    <img src ="Italian1.jpg"  class="img" />
+    <h2><i>
+        Italian: One of the main characteristics of Italian cuisine is its simplicity, with many dishes made up of few ingredients,
+        and therefore Italian cooks often rely on the quality of the ingredients, rather than the complexity of preparation. Here are some of our Favorite and high rated Italian restaurants - <a href="mumbai.html">Mia Cucina</a>
+    </i></h2>
+    </div>
+    <br>
+    <br>
+    <div class="image3">
+    <img src ="mexican1.jpg" class="img" />
+    <h2><i>
+      Mexican: Mexican cuisine consists of the cooking cuisines and traditions of the modern country of Mexico. Here are some of our Favorite and high rated Mexican restaurants - <a href="delhi.html">Bukhara - ITC Maurya</a> 
+  </i></h2>
+  </div>
+  <br>
+  <br>
+  <div class="image4">
+  <img src ="chinese1.jpg" class="img" />
+  <h2><i>
+      Chinese cuisine encompasses the numerous cuisines originating from China, as well as overseas cuisines created by the Chinese diaspora. Here are some of our Favorite and high rated chinese restaurants - <br> <a href="bangalore.html">Byg Brewski Brewing Company</a>     
+  </i></h2>
+  </div>  
+ 
+ 
+</body>
+ 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
